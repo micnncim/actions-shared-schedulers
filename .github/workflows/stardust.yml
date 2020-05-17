@@ -12,7 +12,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           github_username: micnncim
-          interval: 168h
+          interval: 168h # 1 week
           slack_enabled: true
           slack_token: ${{ secrets.SLACK_TOKEN }}
           slack_channel: github-star
